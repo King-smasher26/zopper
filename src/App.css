@@ -1,0 +1,80 @@
+/* Maindiv */
+*{
+  box-sizing: border-box;
+}
+.Maindiv{
+  border:1px solid black;
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Maindiv-content{
+  display: flex;
+  margin-top: 20px;
+}
+.Maindiv-subdiv{
+  border: 2px solid red;
+  width: 25vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info{
+  display: flex;
+  border: 1px solid black;
+  /* flex-direction: column; */
+  width: 23vw;
+  height: 35vh;
+
+  
+}
+.highlighted-info{
+  font-weight: bold;
+}
+#my-content-div{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid blue;
+}
+#btn-viewBI{
+  border: 1px solid orangered;
+  color: orangered;
+  width: 120px;
+  height: 30px;
+  background-color: white;
+}
+a{
+  font-style: none;
+  text-decoration: none;
+  /* width: 80px;
+  height: 30px; */
+  color: orangered;
+}
+.btn-footer{
+  border: 2px solid black;
+  height: 30px;
+  
+}
+#btn-1-footer{
+  width: 120px;
+}
+#btn-2-footer{
+  width: 180px;
+}
+.Maindiv-footer{
+  border: 1px solid blue;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+.input-box{
+  border: 1px solid #8c8888;
+  margin-left: 10px;
+}
